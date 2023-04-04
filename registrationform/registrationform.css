@@ -1,0 +1,96 @@
+#form-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  input[type="text"],
+  input[type="website"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  #data-container {
+    margin-top: 50px;
+    display: none;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: antiquewhite;
+  }
+  
+  #data-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0
+  }
+  
+  #data-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+
+  #form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .form-group label {
+    margin-right: 10px;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .line {
+    border-right: 3px solid #3517c9;
+    height: 100%;
+  }
+  .h1{
+    color:white;
+    background-color : green;
+    width: 35%;
+    
+  }
